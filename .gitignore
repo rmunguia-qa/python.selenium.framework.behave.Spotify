@@ -1,0 +1,9 @@
+.idea/
+
+/environment/
+
+*.ps1
+
+*.txt
+
+*.pyc

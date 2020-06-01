@@ -1,0 +1,276 @@
+{
+  "Cookies": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[@aria-hidden='true']"
+  },
+
+  "Logo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@class='Header__LogoContainer-nt28l4-2 biBEsb']"
+  },
+
+  "SpotifyText": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h1[contains(text(),'Consigue 3 meses de Premium gratis')]",
+    "comments": "Consigue 3 meses de Premium gratis"
+  },
+
+  "TitleText": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h2[contains(.,'Regístrate gratis para escuchar.')]",
+    "comments": "Regístrate gratis para escuchar."
+  },
+
+  "Register_FB": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(.,'Registrarte con Facebook')]"
+  },
+
+  "TitleTextSub": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h2[contains(.,'Registrarte con tu correo ')]",
+    "comments": "Registrarte con tu correo electrónico"
+  },
+
+  "EmailText": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//label[@for='email']",
+    "comments": "¿Cuál es tu correo electrónico?"
+  },
+
+  "Email": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='email']"
+  },
+
+  "EmailConfirmText": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//label[@for='confirm']",
+    "comments": "Confirma el correo electrónico"
+  },
+
+  "EmailConfirm": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='confirm']"
+  },
+
+  "PasswordText": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//label[@for='password']",
+    "comments": "Crea una contraseña"
+  },
+
+  "Password": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='password']"
+  },
+
+  "NameText": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//label[@for='displayname']",
+    "comments": "¿Cómo quieres que te llamemos?"
+  },
+
+  "Name": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='displayname']"
+  },
+
+  "DateBirthText": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//label[contains(text(),'¿Cuál es tu fecha de nacimiento?')]",
+    "comments": "¿Cuál es tu fecha de nacimiento?"
+  },
+
+  "BirthDay": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='day']"
+  },
+
+  "BirthMonth": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//select[@id='month']"
+  },
+
+  "BirthYear": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@id='year']"
+  },
+
+  "GenderText": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//label[@for='gender']",
+    "comments": "¿Cuál es tu género?"
+  },
+
+  "Male": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//span[@class='Indicator-sc-16vj7o8-0 dDbCKU'])[1]"
+  },
+
+  "MaleText": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'Hombre')]"
+  },
+
+  "Female": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//span[@class='Indicator-sc-16vj7o8-0 dDbCKU'])[2]"
+  },
+
+  "FemaleText": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'Mujer')]"
+  },
+
+  "Binary": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//span[@class='Indicator-sc-16vj7o8-0 dDbCKU'])[3]"
+  },
+
+  "BinaryText": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'No binario')]"
+  },
+
+  "MarketingCheck": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(@class,'Indicator-sc-11vkltc-0 hrjscC')]"
+  },
+
+  "MarketingText": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[@class='Label-sc-16kzp0w-0 kBEVTB'][contains(.,'Compartir mis datos de registro con los proveedores de contenidos de Spotify para fines de marketing. Ten en cuenta que tus datos pueden ser transferidos a un país de fuera del EEE, tal y como se recoge en nuestra Política de Privacidad.')]"
+  },
+
+  "Captcha": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@class='recaptcha-checkbox-checkmark']"
+  },
+
+  "ConditionsText": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//p[@class='notice']"
+  },
+
+  "TermsLink": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Términos y Condiciones de Uso')]"
+  },
+
+  "TermsText": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h1[contains(text(),'Términos y Condiciones de Uso de Spotify')]"
+  },
+
+  "PolicyLink": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Política de Privacidad')]"
+  },
+
+  "PolicyText": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//h1[contains(text(),'Política de Privacidad de Spotify')]"
+  },
+
+  "RegisterButton": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@type='submit'][contains(.,'Registrarte')]"
+  },
+
+  "AccountText": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(.,'¿Ya tienes cuenta? Inicia sesión.')]"
+  },
+
+  "IntroLink": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[contains(text(),'Inicia sesión')]"
+  },
+
+  "__comments__": "CONTROL ERRORES",
+
+  "Err_Email1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(.,' necesario que indiques tu correo ')]",
+    "__comments__": "Es necesario que indiques tu correo electrónico."
+  },
+
+  "Err_Email2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(.,' no es válido. Asegúrate de que tenga ')]",
+    "__comments__": "Este correo electrónico no es válido. Asegúrate de que tenga un formato como este: ejemplo@email.com"
+  },
+
+  "Err_Email3": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(.,' ya está conectado a una cuenta.')]",
+    "__comments__": "Este correo electrónico ya está conectado a una cuenta. Inicia sesión."
+  },
+
+  "Err_ConfEmail1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@class,'Container-tliowl-0 ciTMoJ')]",
+    "__comments__": "Es necesario que confirmes tu correo electrónico."
+  },
+
+  "Err_ConfEmail2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@class,'Container-tliowl-0 ciTMoJ')]",
+    "__comments__": "Las direcciones de correo electrónico no coinciden."
+  },
+
+  "Err_Password1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(text(),' indiques una contraseña.')]",
+    "__comments__": "Es necesario que indiques una contraseña."
+  },
+
+  "Err_Password2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(text(),' demasiado corta.')]",
+    "__comments__": "Tu contraseña es demasiado corta."
+  },
+
+  "Err_Name": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(text(),' nombre para tu perfil.')]",
+    "__comments__": "Indica un nombre para tu perfil."
+  },
+
+  "Err_BirthDateDay": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(text(),'Indica un día válido del mes.')]",
+    "__comments__": "Indica un día válido del mes."
+  },
+
+  "Err_BirthDateMonth": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(text(),'Selecciona tu mes de nacimiento.')]",
+    "__comments__": "Selecciona tu mes de nacimiento."
+  },
+
+  "Err_BirthDateYear1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(text(),'Indica un año válido.')]",
+    "__comments__": "Indica un año válido."
+  },
+
+  "Err_BirthDateYear2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(text(),' no cumples los requisitos de eda')]",
+    "__comments__": "Lo sentimos, pero no cumples los requisitos de edad de Spotify."
+  },
+
+  "Err_Gender": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(text(),'Selecciona tu género.')]",
+    "__comments__": "Selecciona tu género."
+  },
+
+  "Err_Captcha": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(text(),' no eres un robot.')]",
+    "__comments__": "Confirma que no eres un robot."
+  }
+}
