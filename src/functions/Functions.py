@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # Importando clase Inicializar
-from src.functions.Inicializar import Inicializar
+from functions.Inicializar import Inicializar
 
 # Importando librría para el manejo de Directorios
 import os

@@ -7,7 +7,7 @@ from behave import *
 import pytest
 
 # Importando def Functions como "Selenium"
-from src.functions.Functions import Functions as Selenium
+from functions.Functions import Functions as Selenium
 
 # Use matcher ("Regular Expresions")
 use_step_matcher("re")
