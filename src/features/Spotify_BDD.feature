@@ -239,7 +239,7 @@ Feature: Funciones básicas de Selenium con BDD - Registro Spotify
     Given Eliminar el mensaje de Cookies
     And Hacer click sobre la imagen Logo
     And Esperar 2 segundos
-    And Verificar el SpotifyText con el texto "Consigue 3 meses de Premium gratis"
+    And Verificar el SpotifyText con el texto "Música para todos."
     And Esperar 2 segundos
     Then Esperar que se haya cargado la página y volver al registro
     And Esperar 2 segundos

@@ -11,8 +11,8 @@
 
   "SpotifyText": {
     "GetFieldBy": "Xpath",
-    "ValueToFind": "//h1[contains(text(),'Consigue 3 meses de Premium gratis')]",
-    "comments": "Consigue 3 meses de Premium gratis"
+    "ValueToFind": "//h1[contains(.,'Música para todos.')]",
+    "comments": "Música para todos."
   },
 
   "TitleText": {
