@@ -240,7 +240,7 @@
 
   "Err_BirthDateDay": {
     "GetFieldBy": "Xpath",
-    "ValueToFind": "//div[contains(text(),'Indica un día válido del mes.')]",
+    "ValueToFind": "(//div[contains(.,'Indica un día válido del mes.')])[5]",
     "__comments__": "Indica un día válido del mes."
   },
 
